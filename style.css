@@ -1,0 +1,21 @@
+
+header {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main-logo {
+    max-width: 192px;
+    height: 95px;
+}
