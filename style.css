@@ -1,6 +1,11 @@
-
 header {
     font-family: 'PT Sans Caption', sans-serif;
+    color: slategray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .first-header {
@@ -8,7 +13,6 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    border: 1px solid black;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -18,4 +22,46 @@ header {
 .main-logo {
     max-width: 192px;
     height: 95px;
+}
+
+.short-description {
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+}
+
+.address-location{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main-loc {
+    position: absolute;
+    max-width: 20px;
+    background: transparent;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.header-address {
+    text-align: left;
+    font-size: 12px;
+    max-width: 70%;
+}
+
+.phone-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-phone {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.desc-phone {
+    font-size: 13px;
 }
