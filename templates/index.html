@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лагуна Голхин</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-main" id="headerMain">
+        <div class="first-header" id="firstHeader">
+            <a class="logoURL" href="index.html"><img src="{{url_for('static', filename='pic/logo.png')}}" alt="logo" class="main-logo" id="mainLogo"></a>
+            <p class="short-description">«Гуниб – это живая краса Дагестана!»<br>Расул Гамзатов</p>
+            <div class="address-phone-header">
+                <div class="address-location">
+                    <img src="{{url_for('static', filename='pic/loc.svg')}}" alt="location" class="main-loc">
+                    <p class="header-address" id="mainAddress">Республика Дагестан, Гунибский район, село Гуниб</p>
+                </div>
+                <div class="phone-block">
+                    <a href="tel:89280452000" class="header-phone">+7 (928) 045-20-00</a>
+                    <p class="desc-phone">Режим работы: 24/7 Круглосуточно</p>
+                </div>
+            </div>
+        </div>
+        <div class="button-line"></div>
+    </header>
+    <nav class="header-menu">
+       <ul class="header-table">
+           <li class="nav-items"><a class="items-links" href="#">О базе отдыха</a></li>
+           <li class="nav-items"><a class="items-links" href="#">Наши услуги</a></li>
+           <li class="nav-items"><a class="items-links" href="#">Цены</a></li>
+           <li class="nav-items"><a class="items-links" href="#">Достопримечательности Гуниба</a></li>
+           <li class="nav-items"><a class="items-links" href="#">Фотогалерея</a></li>
+           <li class="nav-items"><a class="items-links" href="#">Контакты</a></li>
+       </ul>
+    </nav>
+
+    <!--КАРУСЕЛЬ-->
+
+    <main class="main_page">
+        <div class="text-description">
+            <h1>О базе отдыха «Лагуна-Голхин»</h1>
+            <p id="main-text" class="text1">База отдыха <b>«Лагуна-Голхин»</b>, расположившийся на территории Гунибского
+                района Республики Дагестан, предлагает Вам возможность провести незабываемое время в одном из
+                красивейших уголков Дагестана. Вы<br>поразитесь тому, насколько великолепна и разнообразна природа
+                нашего края. Сочетание альпийского и<br>мягкого субальпийского климата, живописная природа,
+                чистый воздух, обилие солнца, отсутствие ветров<br>необыкновенно бодряще действуют на человека.</p>
+            <p id="main-text2" class="text2">Гуниб — это настоящий музей под открытым небом с эндемичной природой,
+                богатейшим историческим и<br>архитектурным наследием. Сегодня село входит в состав природного
+                парка «Верхний Гуниб», благодаря чему<br>расположенным здесь 300 памятникам федерального,
+                республиканского и местного значения ничего не<br>угрожает.</p>
+            <p>И все это великолепие находится всего лишь в 120 км. от Махачкалы!</p>
+        </div>
+        <img src="{{ url_for('static', filename='pic/logo2.PNG')}}" alt="logo" class="description-logo">
+    </main>
+
+    <section class="youtube-videos">
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/YuM5Njcvifo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/E1ubXRTrA1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/r2c6pteAFDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <div class="advantages">
+        <span class="adventages-box1"><img src="{{ url_for('static', filename='pic/video.png')}}" class="camera-pic"><p class="adventages-text">Территории базы охраняются</p></span>
+        <span class="adventages-box2"><img src="{{ url_for('static', filename='pic/like.png')}}" class="like"><p class="adventages-text">Удивительная природа и<br>чистый воздух</p></span>
+        <span class="adventages-box3"><img src="{{ url_for('static', filename='pic/key.png')}}" class="key"><p class="adventages-text">Доступные и комфортные<br>номера</p></span>
+        <span class="adventages-box4"><img src="{{ url_for('static', filename='pic/handbell.png')}}" class="handbell"><p class="adventages-text">Вежливый персонал и<br>обслуживание</p></span>
+    </div>
+
+
+    <div class="service-page">
+        <div class="service-page-start">
+            <h2>К вашим услугам</h2>
+            <a href="#" class="service-page-link">Все услуги</a>
+        </div>
+        <div class="service-info">
+            <p class="service-info-item">База отдыха «Лагуна-Голхин» готова принять отдыхающих и создать им условия для незабываемого отдыха вдали от городской суеты.</p>
+            <p class="service-info-item2">Организаторы постарались удовлетворить самые строгие требования и пожелания.</p>
+        </div>
+    </div>
+    <div class="pictures-block">
+        <a href="#" id="guesthouse" class="pictures-link-item">
+            <img src="../static/pic/guesthouse.jpeg" alt="guesthouse" class="guesthouse-pic">
+            <span class="guesthouse-link">Гостевой дом</span>
+        </a>
+        <a href="#" id="panoramahouse" class="pictures-link-item">
+            <img src=".././static/pic/panoramahouse.jpg" id="panhouse" class="house-item" alt="номера с панорамным видом">
+            <span class="panhouse-link">Номера с панорамным видом</span>
+        </a>
+        <a href="#" class="pictures-link-item" id="cupolhouse">
+            <img src=".././static/pic/cupolhouse.jpg" id="cupol" class="cuphouse" alt="Купольные модули">
+            <span class="cupolhouse-link">Купольные модули</span>
+        </a>
+        <a href="#" class="pictures-link-item" id="restaurant">
+            <img src=".././static/pic/restaurant.jpeg" alt="restaurant" class="restaurant-pic" id="rest">
+            <span class="restaurant-link">Ресторан</span>
+        </a>
+        <a href="#" class="pictures-link-item" id="openpool">
+            <img src=".././static/pic/openpool.jpg" alt="openpool" class="openpool-pic">
+            <span class="openpool-link">Открытый бассейн</span>
+        </a>
+        <a href="#" class="pictures-link-item" id="car">
+            <img src=".././static/pic/car.jpeg" class="car-pic" alt="Экскурсии">
+            <span class="car-link">Экскурсии по достопримечатльностям Гуниба</span>
+        </a>
+        <a href="#" class="pictures-link-item" id="walkOnWater">
+            <img src=".././static/pic/wolkOnWater.jpg" alt="walkOnWater" class="walkOnWater-pic">
+            <span class="walkOnWater-link">Прогулка на катерах</span>
+        </a>
+        <a href="#" class="pictures-link-item" id="iglubar">
+            <img src=".././static/pic/IgluBar.jpg" class="iglubar-pic" alt="иглубар">
+            <span class="igrlubar-link">Аренда ИглуБар</span>
+        </a>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="pictures-container">
+        <div class="base-info">
+            <p class="photo-base-text">Фотографии нашей базы и нашего прекрасного края</p>
+            <a href="#" class="allphoto-link">Все фотографии</a>
+        </div>
+        <div class="linePicturesContainer"></div>
+        <span class="info-gunib-text">
+            Гуниб — это настоящий музей под открытым небом с эндемичной природой, богатейшим историческим и архитектурным наследием. Сегодня село входит в состав природного парка «Верхний Гуниб», благодаря чему расположенным здесь 300 памятникам федерального, республиканского и местного значения ничего не угрожает.
+        </span>
+        <div class="pictures-container-photo">
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item1.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item2.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item3.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item4.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item5.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item6.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item7.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item8.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item9.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item10.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item11.jpg" class="pictures-container-items"></a>
+            <a href="" class="pictures-container-link"><img src="../static/pic/pictures-container-item12.jpg" class="pictures-container-items"></a>
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="attractions-container">
+        <div class="attractions-item" id="attractions-item1">
+            <p class="attractions-upper-text">Достопримечательности Гуниба</p>
+            <img src="../static/pic/attraction-item1.jpg" alt="Губнинская крепость" class="attractions-image-item1">
+            <div class="attractions-box-info">
+                <span class="attractions-infoBox">достопримечательности гуниба</span>
+                <a href="#" class="attractions-box-link"><p class="attractions-box-name">Губнинская крепость</p></a>
+                <span class="attractions-box-text">
+                    Хорошо сохранилась Гунибская крепость и стены укрепления русского гарнизона, который был построен в 19 веке в Верхнем Гунибе после
+                </span>
+            </div>
+        </div>
+        <div class="attractions-item" id="attractions-item2">
+            <a href="#" class="attractions-all-link">Все достопримечательности</a>
+            <div class="attractions-box-conteiner">
+                <div class="attractions-sample-box" id="attractions-box1">
+                    <img src="../static/pic/attractions-box1.jpg" alt="" class="attractions-box-image">
+                    <div class="attractions-infoBox" id="attractions-box2-bottom">достопримечательности гуниба</div>
+                    <a href="#" class="attractions-box-link"><p class="attractions-box-name" id="attractions-tittle-box">Салтинская теснина</p></a>
+                </div>
+                <div class="attractions-sample-box" id="attractions-box3">
+                    <img src="../static/pic/attractions-box3.jpg" alt="" class="attractions-box-image">
+                    <span class="attractions-infoBox" id="attractions-box2-bottom">достопримечательности гуниба</span>
+                    <a href="#" class="attractions-box-link"><p class="attractions-box-name" id="attractions-tittle-box3">Мемориальный комплекс Ватан</p></a>
+                </div>
+                 <div class="attractions-sample-box" id="attractions-box2">
+                    <img src="../static/pic/attractions-box2.jpg" id="attractions-box-image2" alt="" class="attractions-box-image">
+                    <span class="attractions-infoBox" id="attractions-box2-bottom">достопримечательности гуниба</span>
+                    <a href="#" class="attractions-box-link"><p class="attractions-box-name" id="attractions-tittle-box2">Село - призрак Тамсутль</p></a>
+                </div>
+                <div class="attractions-sample-box" id="attractions-box4">
+                    <img src="../static/pic/attractions-box4.jpg" alt="" class="attractions-box-image">
+                    <span class="attractions-infoBox" id="attractions-box2-bottom">достопримечательности гуниба</span>
+                    <a href="#" class="attractions-box-link"><p class="attractions-box-name" id="attractions-tittle-box4">Селение Чох</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<footer class="main_about">
+        <div class="container"></div>
+    </footer> -->
+</body>
+</html>
