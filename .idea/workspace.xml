@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86163fe3-e52b-4b89-b122-6062786b4ba0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/pic/quote.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1656532969374" duration="127000" />
       <workItem from="1656548306060" duration="1263000" />
       <workItem from="1656573203778" duration="4304000" />
-      <workItem from="1656608749447" duration="418000" />
+      <workItem from="1656608749447" duration="728000" />
     </task>
     <task id="LOCAL-00001" summary="Много верстки: на основной странице остался только блок отзывов и футер&#10;Анимации при навидении по изображениям&#10;Стилизация всего проекта&#10;&#10;Много ошибок нужно фиксить">
       <created>1656473393520</created>
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656473393521</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Пред финал без масштабируемой главной страницы">
+      <created>1656609238527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656609238527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +130,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Много верстки: на основной странице остался только блок отзывов и футер&#10;Анимации при навидении по изображениям&#10;Стилизация всего проекта&#10;&#10;Много ошибок нужно фиксить" />
-    <option name="LAST_COMMIT_MESSAGE" value="Много верстки: на основной странице остался только блок отзывов и футер&#10;Анимации при навидении по изображениям&#10;Стилизация всего проекта&#10;&#10;Много ошибок нужно фиксить" />
+    <MESSAGE value="Пред финал без масштабируемой главной страницы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пред финал без масштабируемой главной страницы" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HotelModel$main.coverage" NAME="main Coverage Results" MODIFIED="1656470888300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
