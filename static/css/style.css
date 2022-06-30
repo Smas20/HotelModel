@@ -859,36 +859,138 @@ h2 {
 footer {
     background-color: rgb(6,51,74);
     margin-top: 3%;
-    padding-bottom: 15%;
 }
 
 .footer-grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 345px);
-    gap: 20px 185px;
+    grid-template-columns: 220px 220px 220px 220px;
+    gap: 20px 155px;
+    justify-content: center;
+    width: 100%;
 }
 
 .footer-column-one {
     display: flex;
     flex-direction: column;
+    margin-top: 23%;
 }
 
 .footer-column-two {
     display: flex;
     flex-direction: column;
+    margin-top: 23%;
 }
 
 .footer-column-three {
     display: flex;
     flex-direction: column;
+    margin-top: 23%;
 }
 
 .footer-column-four {
     display: flex;
     flex-direction: column;
+    margin-top: 23%;
+    color: white;
+}
+
+#footer-column-one-item1 {
+    font-size: 15px;
+    color: white;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+#footer-column-two-item2 {
+    font-size: 15px;
+    color: white;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+#footer-column-three-item3 {
+    font-size: 15px;
+    color: white;
+    line-height: 18px;
+    font-weight: 700;
 }
 
 .footer-column-item {
     color: rgb(167,167,167);
     font-size: 14px;
+    margin-top: 8px;
+}
+
+.footer-column-fix-link {
+    margin-top: 20px;
+}
+
+.footer-column-four-item1 {
+    font-size: 15px;
+    color: white;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+#footer-column-four-item2 {
+    color: white;
+}
+
+.footer-phone, .footer-location-img{
+    height: 20px;
+    width: 20px;
+    margin-left: -30px;
+}
+
+.footer-column-four-item3 {
+    color: white;
+    margin-top: 16%;
+}
+
+#footer-phone {
+    margin-left: 10px;
+}
+
+#footer-location-text {
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+#footer-mail-text {
+    color: white;
+    margin-top: 16%;
+    margin-left: 10px;
+}
+
+#footer-mail {
+    margin-top: 16%;
+}
+
+.footer-mail-png {
+    height: 20px;
+    width: 20px;
+    margin-left: -27px;
+}
+
+.social-media {
+    margin-top: 16%;
+    margin-left: -30px;
+}
+
+.footer-social-media-img {
+    height: 35px;
+    width: 35px;
+}
+
+#footer-line {
+    width: 1365px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.copy {
+    color: rgb(167,167,167);
+    margin-left: 265px;
+    margin-top: 40px;
 }
