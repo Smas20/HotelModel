@@ -175,12 +175,11 @@ h1 {
 
 .advantages {
     display: flex;
-    background: no-repeat;
     background-size: cover;
     width: 100%;
     margin-top: 50px;
     height: 155px;
-    background-image: url('../pic/snn.PNG');
+    background: url('../pic/snn.PNG') no-repeat;
     justify-content: space-around;
     align-items: center;
 }
