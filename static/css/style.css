@@ -169,10 +169,6 @@ h1 {
     width: 100%;
 }
 
-footer {
-    background: midnightblue;
-}
-
 .container {
     min-height: 171px;
 }
@@ -626,7 +622,7 @@ h2 {
 #attractions-item1 {
     display: flex;
     flex-direction: column;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     border: 1px solid rgb(242, 242, 242);
     border-top: none;
 }
@@ -634,7 +630,7 @@ h2 {
 #attractions-item2 {
     display: flex;
     flex-direction: column;
-    margin-top: -45px;
+    margin-top: 55px;
 }
 
 .attractions-upper-text {
@@ -652,7 +648,7 @@ h2 {
     align-items: flex-end;
     align-content: flex-end;
     position: absolute;
-    margin-top: -54px;
+    margin-top: -24px;
     margin-left: 440px;
 }
 
@@ -691,14 +687,13 @@ h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 650px;
+    max-height: 850px;
 }
 
 .attractions-sample-box {
     height: 300px;
     border: 1px solid rgb(242, 242, 242);
     width: 310px;
-
 }
 
 .attractions-box-image {
@@ -710,6 +705,7 @@ h2 {
     margin-top: 25px;
     margin-left: 30px;
     font-size: 14px;
+
 }
 
 #attractions-box2-bottom2 {
@@ -760,3 +756,138 @@ h2 {
     width: 310px;
 }
 
+#attractions-box1 {
+
+    border: 1px solid rgb(242, 242, 242);
+    margin-top: 55px;
+}
+
+#attractions-box2 {
+    border: 1px solid rgb(242, 242, 242);
+    margin-top: 55px;
+}
+
+#attractions-box3 {
+    border: 1px solid rgb(242, 242, 242);
+    margin-top: 25px;
+    position: relative;
+}
+
+#attractions-box4 {
+    border: 1px solid rgb(242, 242, 242);
+}
+
+.reviews {
+    max-width: 90%;
+}
+
+.reviews-info {
+    margin-top: 60px;
+    margin-left: 265px;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
+.reviews-name {
+    justify-content: flex-start;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 32px;
+}
+
+.reviews-all {
+    color: #0088cc;
+    left: 80%;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.reviews-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-box1 {
+    margin-left: 270px;
+    border: 1px solid rgb(242, 242, 242);
+    width: 1350px;
+}
+
+.name-review {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 3px;
+    font-size: 1.067em;
+}
+
+.date {
+    color: #777;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+.review-text {
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    font-family: "PT Sans Caption", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    outline-color: rgb(85, 85, 85);
+}
+
+.quote {
+    margin-left: -45px;
+}
+
+#box2 {
+    margin-top: 20px;
+}
+
+#box3 {
+    margin-top: 20px;
+}
+
+#box4 {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(6,51,74);
+    margin-top: 3%;
+    padding-bottom: 15%;
+}
+
+.footer-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 345px);
+    gap: 20px 185px;
+}
+
+.footer-column-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-item {
+    color: rgb(167,167,167);
+}
