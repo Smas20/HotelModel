@@ -6,8 +6,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    margin: 0 auto;
 }
 
 header {
@@ -174,20 +173,27 @@ h1 {
 }
 
 .advantages {
-    display: flex;
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 100%;
     background: no-repeat;
     background-size: cover;
-    width: 100%;
+    gap: 0 70px;
     margin-top: 50px;
     height: 155px;
     background-image: url('../pic/snn.PNG');
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .camera-pic, .like, .handbell, .key {
     width: 62px;
     height: 55px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .adventages-text {
@@ -222,37 +228,42 @@ h1 {
 .adventages-box4 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-right: 13%;
 }
 
 .service-page {
-    display: flex;
-    width: 70%;
-    margin: 20px auto 10px;
-    flex-wrap: wrap;
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: start;
+    width: 1325px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .service-page-start {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 1325px;
 }
 
 h2 {
     font-size: 36px;
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
     font-weight: 500;
-    line-height: 1.1;
-    color: grey;
+    text-size-adjust: 100%;
+    color: rgb(85, 85, 85);
+    display: grid;
+    font-stretch: 100%;
+    line-height: 40px;
 }
 
 .service-page-link {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-left: 60em;
     text-decoration: none;
     color: #0088cc;
+    margin-top: 3.5%;
 }
 
 .service-info-item {
@@ -263,6 +274,7 @@ h2 {
 .service-info-item2 {
     color: #777777;
     font-size: 15px;
+    margin-top: 2%;
 }
 
 .pictures-block {
@@ -535,8 +547,6 @@ h2 {
     font-weight: 600;
 }
 
-
-
 .line {
     margin-top: 80px;
     border-bottom: 1px solid rgb(242,242,242);
@@ -546,7 +556,7 @@ h2 {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    max-width: 1325px;
 }
 
 .base-info {
@@ -583,7 +593,7 @@ h2 {
     color: rgb(81,81,81);
     margin-top: 40px;
     position: absolute;
-    max-width: 70%;
+    max-width: 1325px;
 }
 
 .pictures-container-photo {
@@ -778,15 +788,16 @@ h2 {
 }
 
 .reviews {
-    max-width: 90%;
+    width: 1325px;
+    margin: 0 auto;
 }
 
 .reviews-info {
     margin-top: 60px;
-    margin-left: 265px;
     display: inline-flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    width: 1325px;
 }
 
 .reviews-name {
@@ -799,8 +810,6 @@ h2 {
 
 .reviews-all {
     color: #0088cc;
-    left: 80%;
-    position: absolute;
     margin-top: 40px;
 }
 
@@ -811,9 +820,8 @@ h2 {
 }
 
 .review-box1 {
-    margin-left: 270px;
     border: 1px solid rgb(242, 242, 242);
-    width: 1350px;
+    width: 1325px;
 }
 
 .name-review {
@@ -865,8 +873,8 @@ footer {
     display: grid;
     grid-template-columns: 220px 220px 220px 220px;
     gap: 20px 155px;
-    justify-content: center;
-    width: 100%;
+    width: 1325px;
+    margin: 0 auto;
 }
 
 .footer-column-one {
@@ -987,6 +995,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    border-bottom: 1px solid rgb(167,167,167);
 }
 
 .copy {
